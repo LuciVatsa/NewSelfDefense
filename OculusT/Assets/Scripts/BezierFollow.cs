@@ -59,13 +59,11 @@ public class BezierFollow : MonoBehaviour
         }
 
         */
-        if(numberOfGhostTrails <= 2)
-        { 
-            //we want to let the ghost trail run twice
-            if (coroutineAllowed)
+        if(numberOfGhostTrails <= 2) { //we want to let the ghost trail run twice
+        if (coroutineAllowed)
             {
                 StartCoroutine(GoByTheRoute(routeToGo));
-                numberOfGhostTrails++;
+            numberOfGhostTrails++;
                    
             }
         }
@@ -74,9 +72,6 @@ public class BezierFollow : MonoBehaviour
     private IEnumerator GoByTheRoute(int routeNumber)
     {
         coroutineAllowed = false;
-
-
-
 
         Vector3 p0 = routes[routeNumber].GetChild(0).position;
         Vector3 p1 = routes[routeNumber].GetChild(1).position;
