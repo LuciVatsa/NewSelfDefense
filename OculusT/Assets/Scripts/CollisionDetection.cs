@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CollisionDetection : MonoBehaviour
 {
@@ -18,8 +19,9 @@ public class CollisionDetection : MonoBehaviour
      *2 Punch
      *3 Groin     
     */
+    //public SpriteRenderer spriteRenderer;
+    //public Sprite spriteRun;
 
- 
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,9 @@ public class CollisionDetection : MonoBehaviour
         //animator = gameObject.GetComponent<Animator>();
         //assailant = gameObject.GetComponent<AssailantState>();
         GameObject obj_assailant = GameObject.FindWithTag("Assailant");
+        //GameObject obj_sprite = GameObject.FindWithTag("spriteRun");
+        //spriteRenderer = obj_sprite.GetComponent<SpriteRenderer>();
+
         //bCollision = false;
         if (obj_assailant != null)
         {
@@ -103,12 +108,14 @@ public class CollisionDetection : MonoBehaviour
         transform.GetComponent<Renderer>().material.color = greencolor;
         //GameObject obj_assailant = GameObject.FindWithTag("Assailant");
         //GameObject obj_animator = GameObject.FindWithTag("Assailant");
-        
-       
+        //spriteRenderer.sprite = spriteRun;
+
         switch (animationType)
         {
             case 1://poke animation
                 animator.SetBool("gotPoked", true);
+                //GetComponent<Image>().sprite = spriteRun;
+                //spriteRenderer.sprite = spriteRun;
                 break;
             case 2://punch animation
                 animator.SetBool("gotBlock", true);

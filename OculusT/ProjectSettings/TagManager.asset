@@ -15,6 +15,7 @@ TagManager:
   - Groin
   - RPunch
   - LPunch
+  - spriteRun
   layers:
   - Default
   - TransparentFX

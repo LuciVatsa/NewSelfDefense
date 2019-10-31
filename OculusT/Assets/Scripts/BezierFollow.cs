@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BezierFollow : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class BezierFollow : MonoBehaviour
      */
     public GameObject obj_assailant;
     public Animator animator;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class BezierFollow : MonoBehaviour
         tParam = 0f;
         speedModifier = 0.4f;
         keypress = false;
+       
         GameObject obj_assailant = GameObject.FindWithTag("Assailant");
 
         if (obj_assailant != null)

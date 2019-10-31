@@ -14,7 +14,7 @@ public class AssailantState : MonoBehaviour
         if (OVRInput.Get(OVRInput.Button.One))//button A
         {
             anim.SetTrigger("pokeApproach");//animations for poke & punch approach and fail state are the same / differ in win state
-            anim.SetBool("poke", true);
+            anim.SetBool("poke", true);// on launch of approach animation
         }
 
 
