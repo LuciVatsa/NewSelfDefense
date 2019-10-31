@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!135 &1834856341515286247
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331447820160051260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0.03, z: 0.04}
+--- !u!114 &823201954764769842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331447820160051260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 69888640, guid: 628ffbda3fdf4df4588770785d91a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fbxHistory: '{"-GrabVolumeBig":{"-GrabVolumeSmall":{"UnityEngine.Transform": "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.004699999932199717,\"y\":-0.0144990598782897,\"z\":0.03064309060573578},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.03009999915957451,\"y\":0.0215000007301569,\"z\":0.030299998819828035},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-gripTrans":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.03629999980330467,\"y\":0.02370000071823597,\"z\":0.02539999969303608},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-l_hand_skeletal_lowres":{"-hands:hands_geom":{"-hands:Lhand":{"UnityEngine.SkinnedMeshRenderer":
+    "{\"SkinnedMeshRenderer\":{\"m_Enabled\":true,\"m_CastShadows\":1,\"m_ReceiveShadows\":true,\"m_DynamicOccludee\":true,\"m_MotionVectors\":1,\"m_LightProbeUsage\":1,\"m_ReflectionProbeUsage\":1,\"m_RenderingLayerMask\":1,\"m_RendererPriority\":0,\"m_Materials\":[{\"fileID\":2100000,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3}],\"m_StaticBatchInfo\":{\"firstSubMesh\":0,\"subMeshCount\":0},\"m_StaticBatchRoot\":{\"instanceID\":0},\"m_ProbeAnchor\":{\"instanceID\":0},\"m_LightProbeVolumeOverride\":{\"instanceID\":0},\"m_ScaleInLightmap\":1.0,\"m_PreserveUVs\":false,\"m_IgnoreNormalsForChartDetection\":false,\"m_ImportantGI\":false,\"m_StitchLightmapSeams\":false,\"m_SelectedEditorRenderState\":3,\"m_MinimumChartSize\":4,\"m_AutoUVMaxDistance\":0.5,\"m_AutoUVMaxAngle\":89.0,\"m_LightmapParameters\":{\"instanceID\":0},\"m_SortingLayerID\":0,\"m_SortingLayer\":0,\"m_SortingOrder\":0,\"serializedVersion\":\"2\",\"m_Quality\":0,\"m_UpdateWhenOffscreen\":false,\"m_SkinnedMotionVectors\":true,\"m_Mesh\":{\"fileID\":4300000,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},\"m_Bones\":[{\"fileID\":400106,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400058,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400060,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400096,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400098,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400100,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400102,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400062,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400064,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400066,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400068,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400070,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400072,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400074,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400076,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400088,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400090,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400092,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400094,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400078,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400080,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400082,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400084,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400086,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},{\"fileID\":400056,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3}],\"m_BlendShapeWeights\":[],\"m_RootBone\":{\"fileID\":400106,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},\"m_AABB\":{\"m_Center\":{\"x\":0.006542924791574478,\"y\":-0.036744147539138797,\"z\":-0.057691581547260287},\"m_Extent\":{\"x\":0.07253491878509522,\"y\":0.09257298707962036,\"z\":0.10091360658407211}},\"m_DirtyAABB\":false}}","UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:l_hand_world":{"-hands:b_l_hand":{"-coll_hands:b_l_hand":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.791720449924469,\"y\":-0.0506519190967083,\"z\":-0.6051627397537231,\"w\":-0.06626685708761215},\"m_LocalPosition\":{\"x\":0.03396511450409889,\"y\":-0.009498389437794686,\"z\":0.009856417775154114},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.6397154331207275,\"y\":0.31013253331184389,\"z\":-0.6391276121139526,\"w\":-0.2934245765209198},\"m_LocalPosition\":{\"x\":0.0658872202038765,\"y\":-0.0017580129206180573,\"z\":0.0007715374231338501},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.6778653860092163,\"y\":0.08727464824914932,\"z\":-0.6443415284156799,\"w\":-0.3430827260017395},\"m_LocalPosition\":{\"x\":0.041783422231674197,\"y\":-0.019786737859249116,\"z\":-0.0030611660331487657},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":2,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.6165908575057983,\"y\":-0.2571960687637329,\"z\":0.6610814929008484,\"w\":0.3415220081806183},\"m_LocalPosition\":{\"x\":0.04370596259832382,\"y\":-0.006941746920347214,\"z\":-0.0049329400062561039},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":3,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_4":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.04159365966916084,\"y\":-0.8092005848884583,\"z\":0.2894628643989563,\"w\":0.5095837712287903},\"m_LocalPosition\":{\"x\":0.013218064792454243,\"y\":0.006617695093154907,\"z\":0.0060440730303525929},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":4,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_5":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.5630437731742859,\"y\":-0.4227820634841919,\"z\":0.6292552947998047,\"w\":0.32905155420303347},\"m_LocalPosition\":{\"x\":0.04247824475169182,\"y\":0.0041164010763168339,\"z\":-0.00034919753670692444},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":5,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_6":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7843996286392212,\"y\":-0.2773960530757904,\"z\":-0.44146743416786196,\"w\":-0.3359690308570862},\"m_LocalPosition\":{\"x\":0.011323385871946812,\"y\":-0.023738190531730653,\"z\":0.010268143378198147},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":6,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-coll_hands:b_l_hand_7":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7887017726898193,\"y\":0.017721787095069886,\"z\":-0.571567714214325,\"w\":-0.22571203112602235},\"m_LocalPosition\":{\"x\":0.035844579339027408,\"y\":-0.03445573151111603,\"z\":0.006746239494532347},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":7,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_grip":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.3125748336315155,\"y\":-0.7696518301963806,\"z\":-0.018750904127955438,\"w\":0.5564004778862},\"m_LocalPosition\":{\"x\":0.07215818762779236,\"y\":-0.013962139375507832,\"z\":0.018991699442267419},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":8,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_hand_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.22704249620437623,\"y\":6.624149229139675e-9,\"z\":-7.514034727762464e-9,\"w\":0.9738848805427551},\"m_LocalPosition\":{\"x\":0.13611391186714173,\"y\":-1.1302274671720625e-8,\"z\":9.063685801891097e-9},\"m_LocalScale\":{\"x\":1.0,\"y\":0.9999996423721314,\"z\":0.9999998807907105},\"m_RootOrder\":9,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_index1":{"-coll_hands:b_l_index1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.6051068305969238,\"y\":-0.37744802236557009,\"z\":0.598353385925293,\"w\":-0.365173876285553},\"m_LocalPosition\":{\"x\":-0.01993156597018242,\"y\":0.0009474186226725578,\"z\":-0.001271539251320064},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_index2":{"-coll_hands:b_l_index2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.46257033944129946,\"y\":0.5395599603652954,\"z\":-0.4630593955516815,\"w\":0.5296034812927246},\"m_LocalPosition\":{\"x\":-0.01069621555507183,\"y\":0.0014929021708667279,\"z\":-0.0008002333343029022},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_index3":{"-coll_hands:b_l_index3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.4086723327636719,\"y\":0.5803374648094177,\"z\":-0.4111442565917969,\"w\":0.5719753503799439},\"m_LocalPosition\":{\"x\":-0.014371605589985848,\"y\":0.0017760127084329725,\"z\":-0.0005765222012996674},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_index_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.02912181057035923,\"y\":5.808200587154033e-9,\"z\":-2.5478423815172847e-9},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0000001192092896},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-2.2646847952501049e-8,\"y\":4.853534463222786e-9,\"z\":-0.059595923870801929,\"w\":0.9982225894927979},\"m_LocalPosition\":{\"x\":-0.02215299941599369,\"y\":8.23223089696512e-9,\"z\":-2.300961199352969e-9},\"m_LocalScale\":{\"x\":1.0000001192092896,\"y\":1.000000238418579,\"z\":1.0000001192092896},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":2.409186095064797e-8,\"y\":-2.54569387792003e-9,\"z\":-0.18624673783779145,\"w\":0.9825030565261841},\"m_LocalPosition\":{\"x\":-0.04157472029328346,\"y\":-1.185339737475033e-8,\"z\":9.923133426070763e-10},\"m_LocalScale\":{\"x\":0.9999999403953552,\"y\":0.9999999403953552,\"z\":1.0000001192092896},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.010945027694106102,\"y\":0.7329413890838623,\"z\":0.6609521508216858,\"w\":0.1606844812631607},\"m_LocalPosition\":{\"x\":0.08707868307828903,\"y\":-0.03509991243481636,\"z\":-0.0068139503709971909},\"m_LocalScale\":{\"x\":1.0,\"y\":0.9999999403953552,\"z\":1.0},\"m_RootOrder\":10,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_middle1":{"-coll_hands:b_l_middle1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.5973520278930664,\"y\":-0.39171525835990908,\"z\":0.5878377556800842,\"w\":-0.37970584630966189},\"m_LocalPosition\":{\"x\":-0.021384507417678834,\"y\":0.00155313266441226,\"z\":-0.000625970249529928},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_middle2":{"-coll_hands:b_l_middle2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.3579035699367523,\"y\":0.6148066520690918,\"z\":-0.357755184173584,\"w\":0.6049207448959351},\"m_LocalPosition\":{\"x\":-0.014151059091091156,\"y\":0.0023584063164889814,\"z\":0.00002635270357131958},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_middle3":{"-coll_hands:b_l_middle3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.3025311231613159,\"y\":0.6427420377731323,\"z\":-0.3040960729122162,\"w\":0.6347308158874512},\"m_LocalPosition\":{\"x\":-0.012916903011500836,\"y\":0.0026146199088543655,\"z\":0.00032917410135269165},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_middle_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.026469599455595018,\"y\":8.004908735870231e-9,\"z\":1.6330070629066996e-10},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-2.3105547376682058e-16,\"y\":5.498808191654869e-16,\"z\":-0.1341923326253891,\"w\":0.9909553527832031},\"m_LocalPosition\":{\"x\":-0.029590599238872529,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-2.6655211988335349e-17,\"y\":1.225663027424077e-16,\"z\":-0.3018118441104889,\"w\":0.9533675312995911},\"m_LocalPosition\":{\"x\":-0.045967429876327518,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.13005393743515016,\"y\":0.5818572640419006,\"z\":0.7864518761634827,\"w\":0.16131211817264558},\"m_LocalPosition\":{\"x\":0.09142232686281204,\"y\":-0.00953215453773737,\"z\":-0.010838780552148819},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":11,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_pinky0":{"-coll_hands:b_l_pinky0":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.27836331725120547,\"y\":-0.6489301919937134,\"z\":0.3089793622493744,\"w\":0.6371305584907532},\"m_LocalPosition\":{\"x\":0.023614563047885896,\"y\":-0.00045593734830617905,\"z\":-0.0013013132847845555},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_pinky1":{"-coll_hands:b_l_pinky1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.3855411410331726,\"y\":-0.5874955654144287,\"z\":0.31011682748794558,\"w\":0.6403394937515259},\"m_LocalPosition\":{\"x\":-0.016039999201893808,\"y\":0.005590000189840794,\"z\":-0.0007800000021234155},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_pinky2":{"-coll_hands:b_l_pinky2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.3529835343360901,\"y\":-0.6201096177101135,\"z\":0.30644550919532778,\"w\":0.630046010017395},\"m_LocalPosition\":{\"x\":-0.010759999975562096,\"y\":0.0034399996511638166,\"z\":-0.0010100000072270632},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_pinky3":{"-coll_hands:b_l_pinky3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.33614394068717959,\"y\":-0.5957041382789612,\"z\":0.4467006027698517,\"w\":0.576716959476471},\"m_LocalPosition\":{\"x\":-0.008220000192523003,\"y\":0.0018700000364333392,\"z\":-0.0006899999571032822},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_pinky_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.01944122649729252,\"y\":1.03065778134237e-8,\"z\":-1.0860333077289397e-8},\"m_LocalScale\":{\"x\":0.9999999403953552,\"y\":0.9999999403953552,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-3.217911783239181e-16,\"y\":-1.70343429066347e-15,\"z\":-0.1687595248222351,\"w\":0.985657274723053},\"m_LocalPosition\":{\"x\":-0.01741821877658367,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-5.323103171087345e-15,\"y\":7.449437930667075e-15,\"z\":-0.28393372893333437,\"w\":0.9588439464569092},\"m_LocalPosition\":{\"x\":-0.0333559475839138,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.0064993021078407768,\"y\":-0.0639909878373146,\"z\":0.9691027998924255,\"w\":0.23812340199947358},\"m_LocalPosition\":{\"x\":0.05357065051794052,\"y\":0.0024383999407291414,\"z\":-0.0014630398945882917},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.468828022480011,\"y\":-0.08220173418521881,\"z\":0.07237152755260468,\"w\":0.8764733672142029},\"m_LocalPosition\":{\"x\":0.031271498650312427,\"y\":0.019068028777837755,\"z\":0.011507589370012284},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":12,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_ring1":{"-coll_hands:b_l_ring1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.5757694840431213,\"y\":-0.42342913150787356,\"z\":0.5652787685394287,\"w\":-0.41189464926719668},\"m_LocalPosition\":{\"x\":-0.017053214833140374,\"y\":0.001974254846572876,\"z\":-0.00010370905511081219},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_ring2":{"-coll_hands:b_l_ring2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.28928205370903017,\"y\":0.6509345769882202,\"z\":-0.28786152601242068,\"w\":0.6401061415672302},\"m_LocalPosition\":{\"x\":-0.011651132255792618,\"y\":0.0028355985414236786,\"z\":0.0005038827657699585},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_ring3":{"-coll_hands:b_l_ring3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.22234231233596803,\"y\":0.6754072308540344,\"z\":-0.2227964848279953,\"w\":0.6668962836265564},\"m_LocalPosition\":{\"x\":-0.011369858868420124,\"y\":0.0031120239291340114,\"z\":0.0008305832743644714},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_ring_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.02421490289270878,\"y\":-2.0503345687927778e-9,\"z\":9.068580553162065e-9},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":2.4792004268346355e-15,\"y\":2.399564506716154e-15,\"z\":-0.13026459515094758,\"w\":0.9914792776107788},\"m_LocalPosition\":{\"x\":-0.02577528916299343,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":1.0051405407052617e-15,\"y\":3.1826125851348648e-15,\"z\":-0.3026438057422638,\"w\":0.95310378074646},\"m_LocalPosition\":{\"x\":-0.038572028279304507,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.13000856339931489,\"y\":0.5139557719230652,\"z\":0.8311523199081421,\"w\":0.1677292436361313},\"m_LocalPosition\":{\"x\":0.08953173458576203,\"y\":0.012713978998363018,\"z\":-0.0018533269176259637},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":13,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_thumb1":{"-coll_hands:b_l_thumb1":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7048522233963013,\"y\":0.03300389274954796,\"z\":0.7072892189025879,\"w\":0.04284900054335594},\"m_LocalPosition\":{\"x\":-0.01627008244395256,\"y\":0.0034173079766333105,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_thumb2":{"-coll_hands:b_l_thumb2":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7020691633224487,\"y\":0.046195484697818759,\"z\":0.708371639251709,\"w\":0.05634254217147827},\"m_LocalPosition\":{\"x\":-0.012466860003769398,\"y\":-0.002470098901540041,\"z\":-0.0003263428807258606},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_thumb3":{"-coll_hands:b_l_thumb3":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7022689580917358,\"y\":0.04493647813796997,\"z\":0.7083559036254883,\"w\":0.055055391043424609},\"m_LocalPosition\":{\"x\":-0.01635672152042389,\"y\":-0.0020691531244665386,\"z\":-0.0006206296384334564},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"-hands:b_l_thumb_ignore":{"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":-0.03407955914735794,\"y\":-1.6029417793106405e-9,\"z\":-1.8778428811927484e-10},\"m_LocalScale\":{\"x\":0.9999999403953552,\"y\":1.0,\"z\":0.9999999403953552},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-1.3962830003322324e-8,\"y\":2.0433721381607485e-9,\"z\":0.008720737881958485,\"w\":0.9999619722366333},\"m_LocalPosition\":{\"x\":-0.026371533051133157,\"y\":3.591293928906225e-10,\"z\":-1.9875176504591253e-10},\"m_LocalScale\":{\"x\":0.9999998807907105,\"y\":1.0000001192092896,\"z\":1.0},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":1.823051576366197e-8,\"y\":5.499116717544439e-9,\"z\":-0.1423499882221222,\"w\":0.989816427230835},\"m_LocalPosition\":{\"x\":-0.03258823975920677,\"y\":-4.3056608278746469e-10,\"z\":1.8644983335036615e-9},\"m_LocalScale\":{\"x\":1.0000001192092896,\"y\":0.9999997019767761,\"z\":0.9999999403953552},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.24596232175827027,\"y\":0.9450370073318481,\"z\":-0.0319942906498909,\"w\":0.2130352258682251},\"m_LocalPosition\":{\"x\":0.0262984000146389,\"y\":-0.04147029668092728,\"z\":0.020564155653119088},\"m_LocalScale\":{\"x\":0.9999998807907105,\"y\":1.0000001192092896,\"z\":0.9999999403953552},\"m_RootOrder\":14,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":-0.3125748634338379,\"y\":0.7696518301963806,\"z\":0.01875089295208454,\"w\":0.5564004778862},\"m_LocalPosition\":{\"x\":-1.4110523416377419e-8,\"y\":6.070207003716632e-9,\"z\":1.6197196917033808e-9},\"m_LocalScale\":{\"x\":1.0,\"y\":1.000000238418579,\"z\":1.0000001192092896},\"m_RootOrder\":0,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.7650297284126282,\"y\":-0.5406603217124939,\"z\":0.16959211230278016,\"w\":-0.3060302436351776},\"m_LocalPosition\":{\"x\":-0.017749765887856485,\"y\":0.049014877527952197,\"z\":-0.07170376181602478},\"m_LocalScale\":{\"x\":0.9999998807907105,\"y\":0.9999998211860657,\"z\":1.0000001192092896},\"m_RootOrder\":1,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Transform":
+    "{\"Transform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_RootOrder\":2,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"},"UnityEngine.Animator":
+    "{\"Animator\":{\"serializedVersion\":\"3\",\"m_Enabled\":true,\"m_Avatar\":{\"fileID\":9000000,\"guid\":\"abac47b94be215f428a614f79d6a5002\",\"type\":3},\"m_Controller\":{\"instanceID\":0},\"m_CullingMode\":1,\"m_UpdateMode\":0,\"m_ApplyRootMotion\":false,\"m_LinearVelocityBlending\":false,\"m_WarningMessage\":\"\",\"m_HasTransformHierarchy\":true,\"m_AllowConstantClipSamplingOptimization\":true,\"m_KeepAnimatorControllerStateOnDisable\":false}}"}'
+  m_nameMapping: []
+  m_fbxModel: {fileID: 100048, guid: abac47b94be215f428a614f79d6a5002, type: 3}
+  m_autoUpdate: 1
+--- !u!1001 &8331447820159916296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: CustomHandLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438496, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_parentTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 13646154, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135332, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 156170, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 132044, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 151706, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 116716, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 137228, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 106534, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 157044, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+      propertyPath: m_Name
+      value: coll_hands:b_l_hand_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137977633181334670, guid: e6ba3498ffa1e534b91a07264266e6b8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: abac47b94be215f428a614f79d6a5002, type: 3}
+    - target: {fileID: 137977633181334670, guid: e6ba3498ffa1e534b91a07264266e6b8,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: abac47b94be215f428a614f79d6a5002, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+--- !u!1 &8331447820160051260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 8331447820159916296}
+  m_PrefabAsset: {fileID: 0}

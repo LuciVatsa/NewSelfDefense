@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 57ab12e31491cc04caed7f07cbe460e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: coll_hands:b_l_hand
+    100002: coll_hands:b_l_hand_1
+    100004: coll_hands:b_l_hand_2
+    100006: coll_hands:b_l_hand_3
+    100008: coll_hands:b_l_hand_4
+    100010: coll_hands:b_l_hand_5
+    100012: coll_hands:b_l_hand_6
+    100014: coll_hands:b_l_hand_7
+    100016: coll_hands:b_l_index1
+    100018: coll_hands:b_l_index2
+    100020: coll_hands:b_l_index3
+    100022: coll_hands:b_l_middle1
+    100024: coll_hands:b_l_middle2
+    100026: coll_hands:b_l_middle3
+    100028: coll_hands:b_l_pinky0
+    100030: coll_hands:b_l_pinky1
+    100032: coll_hands:b_l_pinky2
+    100034: coll_hands:b_l_pinky3
+    100036: coll_hands:b_l_ring1
+    100038: coll_hands:b_l_ring2
+    100040: coll_hands:b_l_ring3
+    100042: coll_hands:b_l_thumb1
+    100044: coll_hands:b_l_thumb2
+    100046: coll_hands:b_l_thumb3
+    100048: hands:b_l_grip
+    100050: hands:b_l_hand
+    100052: hands:b_l_hand_ignore
+    100054: hands:b_l_index1
+    100056: hands:b_l_index2
+    100058: hands:b_l_index3
+    100060: hands:b_l_index_ignore
+    100062: hands:b_l_middle1
+    100064: hands:b_l_middle2
+    100066: hands:b_l_middle3
+    100068: hands:b_l_middle_ignore
+    100070: hands:b_l_pinky0
+    100072: hands:b_l_pinky1
+    100074: hands:b_l_pinky2
+    100076: hands:b_l_pinky3
+    100078: hands:b_l_pinky_ignore
+    100080: hands:b_l_ring1
+    100082: hands:b_l_ring2
+    100084: hands:b_l_ring3
+    100086: hands:b_l_ring_ignore
+    100088: hands:b_l_thumb1
+    100090: hands:b_l_thumb2
+    100092: hands:b_l_thumb3
+    100094: hands:b_l_thumb_ignore
+    100096: hands:hands_geom
+    100098: hands:l_hand_world
+    100100: hands:Lhand
+    100102: //RootNode
+    400000: coll_hands:b_l_hand
+    400002: coll_hands:b_l_hand_1
+    400004: coll_hands:b_l_hand_2
+    400006: coll_hands:b_l_hand_3
+    400008: coll_hands:b_l_hand_4
+    400010: coll_hands:b_l_hand_5
+    400012: coll_hands:b_l_hand_6
+    400014: coll_hands:b_l_hand_7
+    400016: coll_hands:b_l_index1
+    400018: coll_hands:b_l_index2
+    400020: coll_hands:b_l_index3
+    400022: coll_hands:b_l_middle1
+    400024: coll_hands:b_l_middle2
+    400026: coll_hands:b_l_middle3
+    400028: coll_hands:b_l_pinky0
+    400030: coll_hands:b_l_pinky1
+    400032: coll_hands:b_l_pinky2
+    400034: coll_hands:b_l_pinky3
+    400036: coll_hands:b_l_ring1
+    400038: coll_hands:b_l_ring2
+    400040: coll_hands:b_l_ring3
+    400042: coll_hands:b_l_thumb1
+    400044: coll_hands:b_l_thumb2
+    400046: coll_hands:b_l_thumb3
+    400048: hands:b_l_grip
+    400050: hands:b_l_hand
+    400052: hands:b_l_hand_ignore
+    400054: hands:b_l_index1
+    400056: hands:b_l_index2
+    400058: hands:b_l_index3
+    400060: hands:b_l_index_ignore
+    400062: hands:b_l_middle1
+    400064: hands:b_l_middle2
+    400066: hands:b_l_middle3
+    400068: hands:b_l_middle_ignore
+    400070: hands:b_l_pinky0
+    400072: hands:b_l_pinky1
+    400074: hands:b_l_pinky2
+    400076: hands:b_l_pinky3
+    400078: hands:b_l_pinky_ignore
+    400080: hands:b_l_ring1
+    400082: hands:b_l_ring2
+    400084: hands:b_l_ring3
+    400086: hands:b_l_ring_ignore
+    400088: hands:b_l_thumb1
+    400090: hands:b_l_thumb2
+    400092: hands:b_l_thumb3
+    400094: hands:b_l_thumb_ignore
+    400096: hands:hands_geom
+    400098: hands:l_hand_world
+    400100: hands:Lhand
+    400102: //RootNode
+    2300000: hands:Lhand
+    3300000: hands:Lhand
+    4300000: hands:Lhand
+    7400000: l_hand_cap_touch
+    7400002: l_hand_pinch_anim
+    7400004: l_hand_relax_mid_fist
+    7400006: l_hand_relax_3qtr_fist
+    7400008: l_hand_fist
+    7400010: l_hand_hold_generic
+    7400012: l_hand_hold_ping_pong_ball
+    7400014: l_hand_cap_touch_thumb_mask
+    7400016: l_hand_thumbs_up
+    7400018: l_hand_cap_touch_index_mask
+    7400020: l_hand_point
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
