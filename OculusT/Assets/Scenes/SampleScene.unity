@@ -2662,7 +2662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1339813579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,6 +3544,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   routes:
   - {fileID: 1339813580}
+  coroutineAllowed: 0
+  routeType: 0
+  obj_assailant: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1001 &1678557720
 PrefabInstance:
   m_ObjectHideFlags: 0
