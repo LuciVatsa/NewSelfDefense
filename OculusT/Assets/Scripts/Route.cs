@@ -16,7 +16,7 @@ public class Route : MonoBehaviour
                              3 * Mathf.Pow(1 - t, 2) * t * controlPoints[1].position +
                              3 * (1 - t) * Mathf.Pow(t, 2) * controlPoints[2].position +
                              Mathf.Pow(t, 3) * controlPoints[3].position;
-            Gizmos.DrawSphere(gizmosPosition, 0.25f);//each gizmo is represented by a sphere with radius 0.25
+            Gizmos.DrawSphere(gizmosPosition, 0.05f);//each gizmo is represented by a sphere with radius 0.25
         }
 
         //line from point1 to point2
