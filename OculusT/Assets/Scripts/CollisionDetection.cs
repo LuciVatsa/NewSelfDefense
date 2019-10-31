@@ -10,9 +10,14 @@ public class CollisionDetection : MonoBehaviour
     public Color whitecolor = new Color(1.0f, 1.0f, 1.0f, 1.0f);
     bool bCollision;
 
+    public AudioSource runAudio;
+
     public Animator animator;
     public AssailantState assailant;
     public GameObject obj_assailant;
+
+    public tryAgainScript imageScript;
+    public GameObject obj_imageScript;
 
     public int animationType;
     /*1 Poke
@@ -25,15 +30,30 @@ public class CollisionDetection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        runAudio = this.gameObject.GetComponent<AudioSource>();
+
         //assailant = GetComponent<AssailantState>();
         //animator = GetComponent<Animator>();
         //animator = gameObject.GetComponent<Animator>();
         //assailant = gameObject.GetComponent<AssailantState>();
         GameObject obj_assailant = GameObject.FindWithTag("Assailant");
+        //obj_imageScript = GameObject.FindWithTag("tryAgainScriptTag");
+        imageScript = this.gameObject.GetComponent<tryAgainScript>();
         //GameObject obj_sprite = GameObject.FindWithTag("spriteRun");
         //spriteRenderer = obj_sprite.GetComponent<SpriteRenderer>();
 
         //bCollision = false;
+
+        if (obj_imageScript != null)
+        {
+            imageScript = obj_imageScript.GetComponent<tryAgainScript>();
+
+        }
+        if (obj_imageScript == null)
+        {
+            Debug.Log("Cannot Find tryAgainScript object");
+        }
+
         if (obj_assailant != null)
         {
             animator = obj_assailant.GetComponent<Animator>();
@@ -41,7 +61,7 @@ public class CollisionDetection : MonoBehaviour
         }
         if (obj_assailant == null)
         {
-            Debug.Log("Cannot Find Assailaint object");
+            Debug.Log("Cannot Find Animator object");
         }
 
         if (gameObject.tag == "Poke")
@@ -74,7 +94,7 @@ public class CollisionDetection : MonoBehaviour
         */
         
 
-        if (OVRInput.Get(OVRInput.Button.Two))
+        if (OVRInput.Get(OVRInput.Button.Two))//reset
         {
             if (OVRInput.Get(OVRInput.Button.Two))
             {
@@ -82,6 +102,9 @@ public class CollisionDetection : MonoBehaviour
                 animator.SetBool("gotPoked", false);
                 animator.SetBool("gotBlock", false);
                 animator.SetBool("groinHit", false);
+                animator.SetBool("groin", false);
+                animator.SetBool("punch", false);
+                animator.SetBool("poke", false);
 
             }
             
@@ -113,6 +136,7 @@ public class CollisionDetection : MonoBehaviour
         switch (animationType)
         {
             case 1://poke animation
+                
                 animator.SetBool("gotPoked", true);
                 //GetComponent<Image>().sprite = spriteRun;
                 //spriteRenderer.sprite = spriteRun;

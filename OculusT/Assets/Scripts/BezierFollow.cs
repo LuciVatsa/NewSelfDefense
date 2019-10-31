@@ -54,15 +54,35 @@ public class BezierFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        if (OVRInput.Get(OVRInput.Button.One)&&!coroutineAllowed){
 
+        if (animator.GetBool("poke")) //approach animation started
+        {
+            routeType = 1;
+            Debug.Log("routeType in BezierFollow is 1");
+            
+        }
+
+        if (animator.GetBool("punch"))
+        {
+            routeType = 2;
+            Debug.Log("routeType in BezierFollow is 2");
+        }
+
+        if (animator.GetBool("groin"))
+        {
+            routeType = 3;
+            Debug.Log("routeType in BezierFollow is 3");
+        }
+        
+        if (OVRInput.Get(OVRInput.Button.SecondaryThumbstick) && (!coroutineAllowed) && (!keypress)){
             keypress = true;
             coroutineAllowed = true;
         }
 
-        */
-        if(numberOfGhostTrails <= 2) { //we want to let the ghost trail run twice
+       
+        if (numberOfGhostTrails <= 2)//we want to let the ghost trail run twice
+        {
+            keypress = false;
         if (coroutineAllowed)
             {
                 StartCoroutine(GoByTheRoute(routeToGo));
@@ -110,10 +130,14 @@ public class BezierFollow : MonoBehaviour
         }*/
 
         //routeToGo += 1;//to get the next curve
-        
-        if (routeToGo > routes.Length - 1)
+
+
+        if (OVRInput.Get(OVRInput.Button.PrimaryThumbstick) && (!coroutineAllowed) && (!keypress))
         {
-            //routeToGo = 0;//loop
+            if (routeToGo > routes.Length - 1)
+            {
+                routeToGo = 0;//loop
+            }
         }
 
         coroutineAllowed = true;

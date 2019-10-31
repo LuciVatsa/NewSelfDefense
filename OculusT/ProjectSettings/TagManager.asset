@@ -16,6 +16,7 @@ TagManager:
   - RPunch
   - LPunch
   - spriteRun
+  - tryAgainScriptTag
   layers:
   - Default
   - TransparentFX

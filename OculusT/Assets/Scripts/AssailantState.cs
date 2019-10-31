@@ -22,14 +22,16 @@ public class AssailantState : MonoBehaviour
         if (OVRInput.Get(OVRInput.Button.Three))//button x
         {
             anim.SetTrigger("groinApproach");
-            
-            
+            anim.SetBool("punch", true);
+
+
         }
 
         //if (Input.GetKeyDown(KeyCode.X))
         if (OVRInput.Get(OVRInput.Button.Four))//button Y
         {
             anim.SetTrigger("punchApproach");
+            anim.SetBool("groin", true);
         }
         //Eye Poke
         //anim.SetBool("gotPoked", true);
@@ -51,6 +53,9 @@ public class AssailantState : MonoBehaviour
         anim.SetBool("groinHit", false);
         //Block
         anim.SetBool("gotBlock", false);
+        anim.SetBool("groin", false);
+        anim.SetBool("punch", false);
+        anim.SetBool("poke", false);
         //Reset to idle
         anim.SetBool("reset",false);
     }
