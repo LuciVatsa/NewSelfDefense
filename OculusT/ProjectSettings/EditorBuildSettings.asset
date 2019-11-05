@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HapticsScene.unity
+    guid: bd73e482d0d9c4044ad9ec4d5b17e08b
   m_configObjects: {}

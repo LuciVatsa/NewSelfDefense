@@ -29,7 +29,7 @@ public class tryAgainScript : MonoBehaviour
     {
         runAudio = this.gameObject.GetComponent<AudioSource>();
         renderer = this.gameObject.GetComponent<SpriteRenderer>();
-        runAudio.Play();
+        //runAudio.Play();
         // this.gameObject.GetComponent<SpriteRenderer>().sprite = goodSprite;
         //renderer.sprite = goodSprite;
         obj_assailant = GameObject.FindWithTag("Assailant");
@@ -92,6 +92,8 @@ public class tryAgainScript : MonoBehaviour
             //StartCoroutine(DisableRenderer());
 
         }
+
+
 
         /*
         timer -= Time.deltaTime;

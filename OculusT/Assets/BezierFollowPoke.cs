@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class BezierFollow : MonoBehaviour
+public class BezierFollowPoke : MonoBehaviour
 {
+
     [SerializeField]
     private Transform[] routes; //will include more than one curve for complex shapes
 
@@ -26,7 +26,6 @@ public class BezierFollow : MonoBehaviour
     public GameObject obj_assailant;
     public Animator animator;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -47,33 +46,14 @@ public class BezierFollow : MonoBehaviour
             Debug.Log("Cannot Find Assailaint object");
         }
 
+        StartCoroutine(delay());
+        //coroutineAllowed = true;
 
-        coroutineAllowed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (animator.GetBool("poke")) //approach animation started
-        {
-            routeType = 1;
-            Debug.Log("routeType in BezierFollow is 1");
-
-        }
-
-        if (animator.GetBool("punch"))
-        {
-            routeType = 2;
-            Debug.Log("routeType in BezierFollow is 2");
-        }
-
-        if (animator.GetBool("groin"))
-        {
-            routeType = 3;
-            Debug.Log("routeType in BezierFollow is 3");
-        }
-
         if (OVRInput.Get(OVRInput.Button.SecondaryThumbstick) && (!coroutineAllowed))
         {
             keypress = true;
@@ -81,7 +61,7 @@ public class BezierFollow : MonoBehaviour
         }
 
 
-        if (numberOfGhostTrails <= 2)//we want to let the ghost trail run twice
+        if (numberOfGhostTrails <= 1)//we want to let the ghost trail run twice
         {
             keypress = false;
             if (coroutineAllowed)
@@ -95,7 +75,8 @@ public class BezierFollow : MonoBehaviour
 
     private IEnumerator delay()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2.0f);
+        coroutineAllowed = true;
         //yield return new WaitForEndOfFrame();
     }
 

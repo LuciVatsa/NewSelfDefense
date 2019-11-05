@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class BezierFollow : MonoBehaviour
+public class BezierFollowGroin : MonoBehaviour
 {
+
     [SerializeField]
     private Transform[] routes; //will include more than one curve for complex shapes
 
@@ -17,15 +17,6 @@ public class BezierFollow : MonoBehaviour
 
 
     int numberOfGhostTrails = 1;
-    public int routeType;
-    /*
-     * 1 Poke
-     * 2 Punch
-     * 3 Groin
-     */
-    public GameObject obj_assailant;
-    public Animator animator;
-
 
     // Start is called before the first frame update
     void Start()
@@ -35,53 +26,14 @@ public class BezierFollow : MonoBehaviour
         speedModifier = 0.4f;
         keypress = false;
 
-        GameObject obj_assailant = GameObject.FindWithTag("Assailant");
-
-        if (obj_assailant != null)
-        {
-            animator = obj_assailant.GetComponent<Animator>();
-
-        }
-        if (obj_assailant == null)
-        {
-            Debug.Log("Cannot Find Assailaint object");
-        }
-
-
-        coroutineAllowed = true;
+        StartCoroutine(delay());
+        //coroutineAllowed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (animator.GetBool("poke")) //approach animation started
-        {
-            routeType = 1;
-            Debug.Log("routeType in BezierFollow is 1");
-
-        }
-
-        if (animator.GetBool("punch"))
-        {
-            routeType = 2;
-            Debug.Log("routeType in BezierFollow is 2");
-        }
-
-        if (animator.GetBool("groin"))
-        {
-            routeType = 3;
-            Debug.Log("routeType in BezierFollow is 3");
-        }
-
-        if (OVRInput.Get(OVRInput.Button.SecondaryThumbstick) && (!coroutineAllowed))
-        {
-            keypress = true;
-            coroutineAllowed = true;
-        }
-
-
-        if (numberOfGhostTrails <= 2)//we want to let the ghost trail run twice
+        if (numberOfGhostTrails <= 1)//we want to let the ghost trail run twice
         {
             keypress = false;
             if (coroutineAllowed)
@@ -95,7 +47,8 @@ public class BezierFollow : MonoBehaviour
 
     private IEnumerator delay()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.0f);
+        coroutineAllowed = true;
         //yield return new WaitForEndOfFrame();
     }
 
@@ -151,3 +104,4 @@ public class BezierFollow : MonoBehaviour
     }
 
 }
+
